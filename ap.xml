@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><VM>
+   <vm type="0">
+      <number>1</number>
+	  <mips>1000</mips>
+	  <size>500</size>
+	  <ram>512</ram>
+	  <bw>10</bw>
+	  <pesNumber>1</pesNumber>
+	   <ut>86.57718120805369</ut>
+	  <vmm>xen</vmm>
+   </vm>
+   <vm type="1">
+      <number>1</number>
+	  <mips>1000</mips>
+	  <size>100</size>
+	  <ram>512</ram>
+	  <bw>10</bw>
+	  <pesNumber>1</pesNumber>
+	  <vmm>xen</vmm>
+	   <ut>84.25196850393701</ut>
+   </vm>
+   <vm type="2">
+       <number>1</number>
+	  <mips>500</mips>
+	  <size>500</size>
+	  <ram>512</ram>
+	   <ut>92.23602484472049</ut>
+	  <bw>10</bw>
+	  <pesNumber>1</pesNumber>
+	  <vmm>xen</vmm>
+   </vm>
+   <vm type="3">
+	  <number>1</number>
+	  <mips>500</mips>
+	  <size>100</size>
+	  <ram>512</ram>
+	  <bw>10</bw>
+	  <pesNumber>1</pesNumber>
+	  <vmm>xen</vmm>
+	   <ut>91.56118143459915</ut>
+   </vm>
+
+</VM>

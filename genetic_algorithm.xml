@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<parameters>
+	<population>
+		<size>60</size>
+		<generation>50</generation>
+	</population>
+	<tournament>
+		<probability>0.75</probability>
+		<size>2</size>
+	</tournament>
+	<selection>
+		<policy>Tournament</policy>
+		<!--
+		<policy>Roulette-Wheel</policy>
+		<policy>Randomly</policy>
+		<policy>Best-Two</policy>
+		-->
+	</selection>
+	<crossover>
+		<policy>Two-Point</policy>
+		<!--policy>Two-Point</policy-->
+		<!--policy>Uniformly</policy-->
+	</crossover>
+	<mutation>
+		<!--
+		<policy>RandomChange</policy>
+		-->
+		<policy>Interchange</policy>
+	</mutation>
+</parameters>
